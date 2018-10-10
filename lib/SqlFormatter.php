@@ -123,16 +123,16 @@ class SqlFormatter
     public static $cli;
 
     // For CLI syntax highlighting
-    public static $cli_quote = "\x1b[34;1m";
-    public static $cli_backtick_quote = "\x1b[35;1m";
-    public static $cli_reserved = "\x1b[37;1m";
-    public static $cli_boundary = "";
-    public static $cli_number = "\x1b[32;1m";
+    public static $cli_quote = "\x1b[96m";
+    public static $cli_backtick_quote = "\x1b[93m";
+    public static $cli_reserved = "\x1b[94m";
+    public static $cli_boundary = "\x1b[91m";
+    public static $cli_number = "\x1b[92m";
     public static $cli_word = "";
-    public static $cli_error = "\x1b[31;1;7m";
-    public static $cli_comment = "\x1b[30;1m";
-    public static $cli_functions = "\x1b[37m";
-    public static $cli_variable = "\x1b[36;1m";
+    public static $cli_error = "\x1b[41m";
+    public static $cli_comment = "\x1b[47m";
+    public static $cli_functions = "\x1b[97m";
+    public static $cli_variable = "\x1b[95m";
 
     // The tab character to use when formatting SQL
     public static $tab = '  ';
